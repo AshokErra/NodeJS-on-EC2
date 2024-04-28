@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { resolve } = require("path");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3100;
 
 // importing the dotenv module to use environment variables:
 require("dotenv").config();
